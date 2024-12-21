@@ -10,7 +10,7 @@ This Python script utilizes the Playwright library to perform web scraping and d
 ## Key Features
 - Data Scraping: The script scrapes data from Google Maps listings, extracting valuable information about schools, such as their name, address, website, and contact details.
 
-- Review Analysis: It extracts review counts and average ratings, providing insights into school's online reputation.
+- Review Analysis: It extracts review counts and average ratings, providing insights into the school's online reputation.
 
 - Data Cleansing: It cleanses and organizes the scraped data, removing redundant or unnecessary columns.
 
@@ -21,7 +21,7 @@ This Python script utilizes the Playwright library to perform web scraping and d
 1. Clone this repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Tripti009/Google-maps-scrapping.git
 2. Navigate to the project directory:
    ```bash
    cd google-maps-scraping
