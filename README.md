@@ -24,7 +24,7 @@ This Python script utilizes the Playwright library to perform web scraping and d
    git clone https://github.com/Tripti009/Google-maps-scrapping.git
 2. Navigate to the project directory:
    ```bash
-   cd google-maps-scraping
+   cd google-maps-scrapping
 3. Install the required Python packages:
     ```bash
     pip install -r requirements.txt
@@ -35,11 +35,11 @@ To use this script, follow these steps:
 
 1. Run the script with Python:
     ```bash
-     python main.py -s "search term" -t total
+     python main1.py -s "search term" -t total
     ```
     Write the name of the place/school in "search term" and a number in place of "total" to get the number of listings. If listings are less than the number provided it is because there are fewer listings than the number provided such as
    ```bash
-     python main.py -s "School in _____" -t 10
+     python main1.py -s "School in _____" -t 10
     ```
 
 3. The script will launch a browser, perform the search, and start scraping information. It will display the progress and save the results to a CSV file called schools_detailed.csv.
